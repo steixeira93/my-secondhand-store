@@ -90,6 +90,36 @@ export const products: Product[] = [
     images: ['https://http2.mlstatic.com/D_NQ_NP_2X_927507-MLB71415422361_082023-F.webp'],
     condition: 'semi-novo',
     available: true
+  },
+  {
+    id: '11',
+    name: 'skyrope da nova',
+    description: 'eu poderia estar matando, estar roubando, mas to aqui vendendo minha skyrope zero',
+    price: 300.00,
+    category: 'esportes',
+    images: ['https://acdn.mitiendanube.com/stores/002/464/750/products/d-preto-ef1db3944285a7b68a17169136679590-480-0.jpg'],
+    condition: 'novo',
+    available: true
+  },
+  {
+    id: '12',
+    name: 'monitorzin gamer + -',
+    description: 'monitorzin gamer 144hz, 1080p, 1ms, hdmi, dp, curvo, 31.5.. é de entrada, mas é baum',
+    price: 800.00,
+    category: 'gamer',
+    images: ['https://img.terabyteshop.com.br/produto/g/monitor-gamer-superframe-precision-ultra-curvo-315-pol-full-hd-165hz-va-1ms-hdmidp-sfp3212_132079.jpg'],
+    condition: 'semi-novo',
+    available: true
+  },
+  {
+    id: '13',
+    name: 'fonezin de cria',
+    description: 'fui motivo de piada quando comprei, mas é bom demais pra jogar',
+    price: 100.00,
+    category: 'gamer',
+    images: ['https://http2.mlstatic.com/D_NQ_NP_2X_757300-MLB82142656897_012025-F.webp'],
+    condition: 'semi-novo',
+    available: true
   }
 ];
 

@@ -113,14 +113,13 @@ export default function Home() {
   };
 
   return (
-
     <div className="flex flex-col min-h-screen">
       <header className="fixed top-0 left-0 right-0 bg-white z-50">
         <div className="container mx-auto px-4">
           <div className={`transition-all duration-300 ${
             isScrolled ? 'bg-white/80 backdrop-blur-md shadow-md' : 'bg-white'
           }`}>
-            <div className="flex items-center justify-between h-20">
+            <div className="flex flex-col md:flex-row md:items-center justify-between py-4 md:h-20 space-y-4 md:space-y-0">
               <div className="flex items-center space-x-4">
                 <div className="relative w-12 h-12 rounded-full overflow-hidden ring-2 ring-purple-500 ring-offset-2">
                   <Image
@@ -140,9 +139,9 @@ export default function Home() {
                 </div>
               </div>
               
-              {/* Select atualizado */}
-              <div className="flex items-center gap-4">
-                <div className="relative w-64">
+              {/* Controles de busca */}
+              <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4">
+                <div className="w-full sm:w-64">
                   <Listbox value={selectedCategory} onChange={setSelectedCategory}>
                     <div className="relative mt-1">
                       <Listbox.Button className="relative w-full cursor-pointer rounded-lg bg-white py-2 pl-3 pr-10 text-left 
@@ -207,13 +206,13 @@ export default function Home() {
                 </div>
 
                 {/* Barra de Pesquisa */}
-                <div className="relative">
+                <div className="relative w-full sm:w-64">
                   <input
                     type="text"
                     placeholder="Buscar produtos..."
                     value={searchTerm}
                     onChange={(e) => setSearchTerm(e.target.value)}
-                    className="w-64 px-4 py-2 rounded-lg border-2 border-purple-200 
+                    className="w-full px-4 py-2 rounded-lg border-2 border-purple-200 
                              focus:border-purple-500 focus:outline-none focus:ring-2 
                              focus:ring-purple-500 focus:ring-opacity-50
                              placeholder-gray-400 transition-all"
@@ -228,7 +227,7 @@ export default function Home() {
         </div>
       </header>
 
-      <main className="flex-1 container mx-auto px-4 pt-32 pb-32">
+      <main className="flex-1 container mx-auto px-4 pt-64 md:pt-32 pb-32">
         {/* Título da Seção */}
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-gray-800 mb-2">
