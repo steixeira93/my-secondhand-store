@@ -309,11 +309,13 @@ export default function Home() {
                     <div className="flex gap-3">
                       <button
                         onClick={() => handleContact(product, 'whatsapp')}
-                        className="flex-1 bg-green-500 text-white py-3 rounded-xl font-medium 
-                                 transition-all duration-300 hover:bg-green-600 hover:shadow-lg 
-                                 active:transform active:scale-95"
+                        className="flex-1 bg-gradient-to-r from-green-500 to-green-600 text-white py-3 rounded-xl font-medium 
+                                 transition-all duration-300 hover:from-green-600 hover:to-green-700 hover:shadow-lg 
+                                 active:transform active:scale-95 flex items-center justify-center 
+                                 space-x-2 hover:space-x-3 shadow-md"
                       >
-                        📱 me chama no zap
+                        <span>📱</span>
+                        <span>me chama no zap</span>
                       </button>
                     </div>
                   )}
