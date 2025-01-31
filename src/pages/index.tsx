@@ -69,8 +69,8 @@ export default function Home() {
       setInitialLoading(true);
       const data = await api.getProducts();
       setProducts(data);
-    } catch (_error) {
-      setToast({ message: 'Erro ao carregar produtos', type: 'error' });
+    } catch (error) {
+      console.error(error);
     } finally {
       setInitialLoading(false);
       setLoading(false);
@@ -87,8 +87,8 @@ export default function Home() {
         const data = await api.getProducts();
         setProducts(data);
       }
-    } catch (_error) {
-      setToast({ message: 'Erro ao filtrar produtos', type: 'error' });
+    } catch (error) {
+      console.error(error);
     } finally {
       setLoading(false);
     }
@@ -107,9 +107,8 @@ export default function Home() {
       } else {
         window.location.href = `mailto:steixeira1337@gmail.com?subject=Interesse em ${product.name}`;
       }
-      setToast({ message: 'Redirecionando para o contato...', type: 'success' });
-    } catch (_error) {
-      setToast({ message: 'Erro ao tentar contato', type: 'error' });
+    } catch (error) {
+      console.error(error);
     }
   };
 

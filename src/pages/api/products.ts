@@ -19,6 +19,7 @@ export default function handler(
         res.status(200).json(filteredProducts);
       } catch (error) {
         res.status(500).json({ message: 'Erro ao buscar produtos' });
+        console.error(error);
       }
       break;
 
