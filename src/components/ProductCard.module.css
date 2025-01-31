@@ -1,0 +1,80 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 400px; /* Reduzido de 450px para 400px */
+  width: 300px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  background-color: #ffffff;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.image-container {
+  width: 100%;
+  height: 250px; /* Aumentado para dar mais destaque às imagens */
+  position: relative;
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.image-container:hover img {
+  transform: scale(1.05);
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem;
+  gap: 0.75rem;
+  background-color: #ffffff;
+}
+
+.product-name {
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 1.4;
+  height: 2.8em;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #1f2937; /* Cor mais escura para melhor legibilidade */
+}
+
+.product-description {
+  font-size: 0.875rem;
+  line-height: 1.5;
+  height: 4.5em;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #4b5563; /* Cor mais suave para hierarquia visual */
+}
+
+.price-container {
+  margin-top: auto;
+  font-size: 1.375rem;
+  font-weight: 700;
+  color: #2563eb; /* Cor destacada para o preço */
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+} 
