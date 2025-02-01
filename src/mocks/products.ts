@@ -75,7 +75,7 @@ export const products: Product[] = [
     id: '9',
     name: 'bikezinha boa',
     description: 'cannondale pretinha aro 29, zero km praticamente.. se comprar, me chama pro pedal junto',
-    price: 1000.00,
+    price: 2000.00,
     category: 'esportes',
     images: ['https://http2.mlstatic.com/D_NQ_NP_2X_979762-MLU77098549784_062024-F.webp'],
     condition: 'semi-novo',
