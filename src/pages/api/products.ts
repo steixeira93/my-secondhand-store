@@ -36,13 +36,21 @@ export default function handler(
 
     case 'PUT':
       try {
+        const { id } = query;
         const updatedProduct = body as Product;
-        const index = products.findIndex(p => p.id === updatedProduct.id);
+        
+        if (!id) {
+          return res.status(400).json({ message: 'ID do produto é obrigatório' });
+        }
+
+        const index = products.findIndex(p => p.id === id);
         if (index === -1) {
           return res.status(404).json({ message: 'Produto não encontrado' });
         }
-        products[index] = updatedProduct;
-        res.status(200).json(updatedProduct);
+        
+        // Mantém o ID original e atualiza os outros campos
+        products[index] = { ...products[index], ...updatedProduct };
+        res.status(200).json(products[index]);
       } catch (error) {
         res.status(500).json({ message: 'Erro ao atualizar produto' });
         console.error(error);
