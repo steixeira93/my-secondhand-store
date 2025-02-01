@@ -12,7 +12,7 @@ export const products: Product[] = [
     available: false
   },
   {
-    id: '3',
+    id: '2',
     name: 'relogin da apple SE',
     description: 'reloginho da apple top demais, vem com carregador original, é prata e tem uma pulseira preta linda',
     price: 1999.00,
@@ -22,7 +22,7 @@ export const products: Product[] = [
     available: true
   },
   {
-    id: '4',
+    id: '3',
     name: 'razer deathadder v3',
     description: 'mousezin gamer profissa com sensor mt preciso, um dos melhores mouses do mundo',
     price: 999.00,
@@ -32,7 +32,7 @@ export const products: Product[] = [
     available: true
   },
   {
-    id: '5',
+    id: '4',
     name: 'logitech g pro x',
     description: 'mouse levinho pra jogar competitivo, top 1 do mundo na minha opinião.. +1000 de skill com ele',
     price: 499.00,
@@ -42,7 +42,7 @@ export const products: Product[] = [
     available: false
   },
   {
-    id: '6',
+    id: '5',
     name: 'steelseries qck+',
     description: 'mousepad grandão de pano pra jogar aquele fps e agarrar pelo de gato',
     price: 200.00,
@@ -52,7 +52,7 @@ export const products: Product[] = [
     available: false
   },
   {
-    id: '7',
+    id: '6',
     name: 'alienware 360hz',
     description: 'monitor monstrão pra jogar cs, valorant e lolzin sem lag.. uma das melhores compras da minha vida',
     price: 3000.00,
@@ -62,7 +62,7 @@ export const products: Product[] = [
     available: false
   },
   {
-    id: '8',
+    id: '7',
     name: 'pczin god',
     description: 'pc monstro com ryzen 7700x, rtx 4070 e 32gb ram ddr5.. to triste de vender, mas é o que tem',
     price: 9000.00,
@@ -72,7 +72,7 @@ export const products: Product[] = [
     available: false
   },
   {
-    id: '9',
+    id: '8',
     name: 'bikezinha boa',
     description: 'cannondale pretinha aro 29, zero km praticamente.. se comprar, me chama pro pedal junto',
     price: 2000.00,
@@ -82,7 +82,7 @@ export const products: Product[] = [
     available: true
   },
   {
-    id: '10',
+    id: '9',
     name: 'echo dot 4',
     description: 'echo dot 4 com alexa, se vc souber usar o google, nao precisa disso.. sou sincero',
     price: 250.00,
@@ -92,7 +92,7 @@ export const products: Product[] = [
     available: false
   },
   {
-    id: '11',
+    id: '10',
     name: 'skyrope da nova',
     description: 'eu poderia estar matando, estar roubando, mas to aqui vendendo minha skyrope zero',
     price: 300.00,
@@ -102,7 +102,7 @@ export const products: Product[] = [
     available: true
   },
   {
-    id: '12',
+    id: '11',
     name: 'monitorzin gamer + -',
     description: 'monitorzin gamer 144hz, 1080p, 1ms, hdmi, dp, curvo, 31.5.. é de entrada, mas é baum',
     price: 800.00,
@@ -112,7 +112,7 @@ export const products: Product[] = [
     available: true
   },
   {
-    id: '13',
+    id: '12',
     name: 'fonezin de cria',
     description: 'fui motivo de piada quando comprei, mas é bom demais pra jogar e tem uma qualidade de som top',
     price: 100.00,
