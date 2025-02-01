@@ -9,7 +9,7 @@ export const products: Product[] = [
     category: 'gamer',
     images: ['https://www.logitechstore.com.br/media/catalog/product/cache/105e6f420716e0751863c4b81f527d17/l/o/logitechgpro1.png'],
     condition: 'semi-novo',
-    available: true
+    available: false
   },
   {
     id: '3',
@@ -39,7 +39,7 @@ export const products: Product[] = [
     category: 'gamer',
     images: ['https://http2.mlstatic.com/D_NQ_NP_2X_627554-MLB81702571298_012025-F.webp'],
     condition: 'semi-novo',
-    available: true
+    available: false
   },
   {
     id: '6',
@@ -49,7 +49,7 @@ export const products: Product[] = [
     category: 'gamer',
     images: ['https://http2.mlstatic.com/D_NQ_NP_2X_723466-MLA74781351247_022024-F.webp'],
     condition: 'semi-novo',
-    available: true
+    available: false
   },
   {
     id: '7',
@@ -59,7 +59,7 @@ export const products: Product[] = [
     category: 'gamer',
     images: ['https://http2.mlstatic.com/D_NQ_NP_2X_918973-MLU75459766143_032024-F.webp'],
     condition: 'semi-novo',
-    available: true
+    available: false
   },
   {
     id: '8',
@@ -69,7 +69,7 @@ export const products: Product[] = [
     category: 'gamer',
     images: ['https://cdn.awsli.com.br/64x50/2443/2443989/produto/191888985/15288147043-u1-04547d5f2d-500n6a7m4s.webp'],
     condition: 'semi-novo',
-    available: true
+    available: false
   },
   {
     id: '9',
@@ -89,7 +89,7 @@ export const products: Product[] = [
     category: 'tecnologia',
     images: ['https://http2.mlstatic.com/D_NQ_NP_2X_927507-MLB71415422361_082023-F.webp'],
     condition: 'novo',
-    available: true
+    available: false
   },
   {
     id: '11',
