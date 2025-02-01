@@ -119,7 +119,7 @@ export const products: Product[] = [
     category: 'gamer',
     images: ['https://http2.mlstatic.com/D_NQ_NP_2X_757300-MLB82142656897_012025-F.webp'],
     condition: 'semi-novo',
-    available: true
+    available: false
   }
 ];
 
